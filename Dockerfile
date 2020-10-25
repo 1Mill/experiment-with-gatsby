@@ -7,4 +7,4 @@ RUN \
 
 WORKDIR /app
 
-CMD [ "gatsby", "develop" ]
+CMD [ "gatsby", "develop", "--host=0.0.0.0" ]
