@@ -6,3 +6,5 @@ RUN \
 	npm install -g gatsby-cli
 
 WORKDIR /app
+
+CMD [ "gatsby", "develop" ]
